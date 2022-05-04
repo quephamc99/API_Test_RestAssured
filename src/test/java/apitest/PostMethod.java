@@ -36,5 +36,7 @@ public class PostMethod {
         response.then().body("id", equalTo("101"));
         response.then().body("title", equalTo("title"));
 
+        // just test commit in IntellJ Terminal
+
     }
 }
